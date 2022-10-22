@@ -3,6 +3,8 @@ trigger:
 
 pool:
   name: 'Laptop'
+  demand:
+  - npm
 
 variables:
   buildConfiguration: 'Release'
