@@ -3,7 +3,10 @@ trigger:
 
 pool:
   name: az400m05l05a-pool
-
+  requests:
+  - npm
+  - node.js
+  
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
