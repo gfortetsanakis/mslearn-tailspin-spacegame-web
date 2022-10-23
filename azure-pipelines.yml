@@ -2,10 +2,7 @@ trigger:
 - '*'
 
 pool:
-  name: 'Laptop'
-  demand:
-  - npm
-  - node.js
+  name: az400m05l05a-pool
 
 variables:
   buildConfiguration: 'Release'
